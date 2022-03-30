@@ -1,3 +1,6 @@
+*{
+  cursor: grab;
+}
 body{
   background-image: linear-gradient(#ffbd59, #14171E);
 }
@@ -44,29 +47,33 @@ body{
 .i{
   width:90%;
   height:50px;
-  margin-top:10px;
+  margin-top:5px;
   margin-bottom:10px;
   border-radius:50px;
   text-align:center;
   box-shadow: 0 0 5px 0 rgb(26, 27, 28);
   background-color:#fcfcfc;
-  cursor: grabbing;
+  cursor: grab;
  
 }
 .i:hover{
-  transition:width:110% 300ms 
-  transition:height:70px; 300ms 
   
   margin-bottom:10px;
-  border-radius:50px;
+  border-radius:10px;
+
+  transition: box-shadow 300ms ease-in;
+  transition:border-radius 290ms ease-in;
   background-color:#fcfcfc;
-box-shadow: 0 0 5px 1px rgb(26, 27, 28);
+box-shadow: 0 0 5px 3px rgb(26, 27, 28);
+  cursor: grabbing;
 }
+  
 img{
  margin-left:50px;
 }
   span{
     position:relative;
     top:10px;
+    
   
   }
